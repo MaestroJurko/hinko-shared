@@ -11,7 +11,7 @@ ARGUMENTS
 echo 'Starting to run the script...'
 
 # Here you can run any script (bash|node|go|java|python)
-node topics/default.js
+# node topics/shared/default.js -- be sure that you specify the right path to the script
 
 echo 'Script ended'
 
