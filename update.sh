@@ -9,6 +9,7 @@ if [[ -z "$1" ]] ; then
   echo "We are going to update shared repository"
   GIT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 else
+  echo "We are going to update "$1" repository"
   GIT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd )/"$1
 fi
 
