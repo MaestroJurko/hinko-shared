@@ -19,7 +19,7 @@ else
   GIT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd )/"$1
 fi
 
-git --git-dir=$GIT_PATH"/.git" pull
+git --git-dir=$GIT_PATH"/.git" --work-tree=$GIT_PATH pull
 
 echo 'Update ended'
 
