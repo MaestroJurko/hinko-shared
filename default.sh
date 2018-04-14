@@ -7,7 +7,7 @@ DESCRIPTION
 hinko-cli share shared/default
 EXAMPLE
 
-echo 'Starting to run the script...'
+echo 'Starting to run the default script...'
 
 # Here you can run any script (bash|node|go|java|python)
 # node topics/shared/default.js -- be sure that you specify the right path to the script
