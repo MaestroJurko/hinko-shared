@@ -3,10 +3,9 @@
 : <<'DESCRIPTION'
 Here we write down the description
 DESCRIPTION
-: <<'ARGUMENTS'
-argumen1: we want number,
-argumen2: we want number
-ARGUMENTS
+: <<'EXAMPLE'
+hinko-cli share shared/default
+EXAMPLE
 
 echo 'Starting to run the script...'
 

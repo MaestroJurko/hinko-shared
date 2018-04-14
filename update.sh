@@ -3,6 +3,12 @@
 : <<'DESCRIPTION'
 Update git repository
 DESCRIPTION
+: <<'ARGUMENTS'
+Topics directory: string || empty
+ARGUMENTS
+: <<'EXAMPLE'
+hinko-cli share shared/update shared
+EXAMPLE
 
 echo 'Starting to update the repo'
 if [[ -z "$1" ]] ; then
