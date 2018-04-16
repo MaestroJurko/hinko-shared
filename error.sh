@@ -1,10 +1,10 @@
 #!/bin/bash
 
 : <<'DESCRIPTION'
-Here we write down the description
+Example of error topic
 DESCRIPTION
 : <<'EXAMPLE'
-hinko-cli share shared/default
+hinko-cli share shared/error
 EXAMPLE
 
 echo 'Starting to run the error script...'
